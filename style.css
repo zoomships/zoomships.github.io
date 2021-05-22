@@ -153,8 +153,7 @@ h5 {
 }
 
 .info1 {
-    position: relative;
-    bottom: 130px;
+
 }
 
 .info1 > p {
@@ -167,8 +166,6 @@ h5 {
 }
 
 .info2 {
-    position: relative;
-    top: 320px;
 }
 
 .info2 > p {
