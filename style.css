@@ -1,0 +1,230 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+
+@import url(//db.onlinewebfonts.com/c/c16f494de2b352a69ead71431b29a155?family=Kaleko205W00-Book);
+
+@font-face {
+    font-family: "Kaleko";
+    src:
+        url("//db.onlinewebfonts.com/t/c16f494de2b352a69ead71431b29a155.eot");
+    src:
+        url("//db.onlinewebfonts.com/t/c16f494de2b352a69ead71431b29a155.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/c16f494de2b352a69ead71431b29a155.woff2") format("woff2"),
+        url("//db.onlinewebfonts.com/t/c16f494de2b352a69ead71431b29a155.woff") format("woff"),
+        url("//db.onlinewebfonts.com/t/c16f494de2b352a69ead71431b29a155.ttf") format("truetype"),
+        url("//db.onlinewebfonts.com/t/c16f494de2b352a69ead71431b29a155.svg#Kaleko205W00-Book") format("svg");
+}
+
+/* GENERAL */
+
+body {
+    background-color: #25201D;
+}
+
+.zslogo {
+    height: 50px;
+    padding: 60px 0 0 100px;
+}
+
+
+#twoColourSplit {
+    background-color: #25201D;
+    background-image: -webkit-linear-gradient(96deg, #423D33 50%, #25201D 50%);
+    min-height: 500px;
+    width: 100%;
+}
+  
+
+/********************/
+
+
+/* Header Section */
+
+header {
+    height: 250px;
+}
+
+/********************/
+
+
+/* Countdown Timer */
+
+.countSec {
+    display: none;
+    height: 100vh;
+    width: 100%;
+    background-color: #25201D;
+}
+
+.countdownT {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+h5 {
+    font-size: 55px;
+    color: #faaaff;
+    font-family: 'Kaleko';
+}
+
+/*******************/
+
+
+/* Status Section */
+
+.statusSec {
+    height: calc(75vh - 250px);
+}
+
+.status {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    font-size: 24px;
+    font-weight: 500;
+    text-align: center;
+    background-color: #423D33;
+    border-radius: 24px;
+    padding: 60px;
+    width: 800px;
+}
+
+.whatis {
+    font-family: 'Kaleko';
+    font-size: 22px;
+    color: #D3CEC4;
+}
+
+#moreArrow {
+    position: relative;
+    margin: 0 auto;
+    border-radius: 50%;
+    background-color: #857F72;
+    color: #D3CEC4;
+    width: 64px;
+    height: 62px;
+}
+
+#arIcon {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    color: #D3CEC4;
+}
+
+#moreArrow:hover,
+#arIcon:hover {
+    background-color: #696354;
+    color: #d1c1a2;
+}
+
+/******************/
+
+/* About zoomships Section */
+.aboutZS {
+    background-color: #423D33;
+    padding-bottom: 370px;
+}
+
+.info {
+    display: flex;
+    justify-content: center;
+}
+
+.infbox {
+    width: 450px;
+    height: 270px;
+    font-size: 20px;
+    border-radius: 24px;
+    background-color: #25201D;
+    padding: 40px;
+    margin: 0 40px;
+}
+
+.info1 {
+    position: relative;
+    bottom: 130px;
+}
+
+.info1 > p {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    width: 85%;
+}
+
+.info2 {
+    position: relative;
+    top: 320px;
+}
+
+.info2 > p {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    width: 85%;
+}
+
+/******************/
+
+
+@media only screen and (max-width: 960px) {
+
+    /* Status Section */
+
+    .statusSec {
+        margin-top: 100px;
+    }
+
+    .status {
+        width: 60%;
+    }
+
+    /******************/
+}
+
+@media only screen and (max-width: 650px) {
+
+    /* Header Section */
+
+    header {
+        text-align: center;
+    }
+
+    .zslogo {
+        padding: 40px;
+        height: 40px;
+    }
+
+    /****************/
+
+
+    /* Status Section */
+
+    .status {
+        position: relative;
+        left: 50%;
+        top: 50%;
+        -webkit-transform: translate(-50%, -100%);
+        transform: translate(-50%, -100%);
+        font-size: 18px;
+        width: 85%;
+        padding: 20px;
+    }
+
+    /*********************/
+}
