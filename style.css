@@ -72,6 +72,18 @@ body {
 
 header {
     height: 250px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.socialIcons {
+    margin: 0 200px;
+}
+
+.socialIcons > a > i {
+    padding: 20px;
+    margin: 57px 20px;
+    color: #faaaff;
 }
 
 /********************/
@@ -121,7 +133,7 @@ h5 {
     background-color: #423D33;
     border-radius: 24px;
     padding: 60px;
-    width: 800px;
+    width: 600px;
 }
 
 .whatis {
