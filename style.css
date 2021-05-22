@@ -137,7 +137,8 @@ h5 {
 }
 
 .info {
-    display: flex;
+    display: grid;
+    grid-template-columns: auto auto;
     justify-content: center;
 }
 
