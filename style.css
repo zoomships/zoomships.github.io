@@ -18,6 +18,28 @@
         url("//db.onlinewebfonts.com/t/c16f494de2b352a69ead71431b29a155.svg#Kaleko205W00-Book") format("svg");
 }
 
+/* Custom Scroll Bar */
+/* width */
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f100;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: rgba(104, 104, 104, 0.247);
+    border-radius: 12px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: rgba(104, 104, 104, 0.575);
+}
+
 
 /* GENERAL */
 
@@ -269,4 +291,20 @@ h5 {
     }
 
     /*********************/
+}
+
+@media only screen and (max-width: 537px) {
+    .infbox {
+        width: 220px;
+        height: 300px;
+        padding: 65px;
+    }
+}
+
+@media only screen and (max-width: 370px) {
+    .infbox {
+        width: 120px;
+        height: 300px;
+        padding: 95px;
+    }
 }
