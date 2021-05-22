@@ -153,7 +153,7 @@ h5 {
 }
 
 .info1 {
-
+    position: relative;
 }
 
 .info1 > p {
@@ -166,6 +166,7 @@ h5 {
 }
 
 .info2 {
+    position: relative;
 }
 
 .info2 > p {
