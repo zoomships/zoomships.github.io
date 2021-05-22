@@ -241,17 +241,17 @@ h5 {
     header {
         height: 250px;
         display: flex;
-        justify-content: space-between;
+        justify-content: center;
         flex-direction: column;
     }
 
     .socialIcons {
-        margin: 0 100px;
+        margin: 0;
     }
 
     .socialIcons > a > i {
         padding: 20px;
-        margin: 57px 20px;
+        margin: 20px 0px;
         color: #faaaff;
     }
 
