@@ -237,16 +237,21 @@ h5 {
 
 @media only screen and (max-width: 1210px) {
     /* Header Section */
-
     header {
         height: 250px;
         display: flex;
         justify-content: center;
+        justify-items: center;
         flex-direction: column;
+        text-align: center;
+    }
+
+    .zslogo {
+        padding: 0;
     }
 
     .socialIcons {
-        margin: 0;
+        margin: 0 auto;
     }
 
     .socialIcons > a > i {
@@ -256,6 +261,11 @@ h5 {
     }
 
     /********************/
+
+    .statusSec {
+        position: relative;
+        margin-top: 100px;
+    }
 
 
     .info {
@@ -289,7 +299,7 @@ h5 {
     /* Status Section */
 
     .statusSec {
-        margin-top: 100px;
+        margin-top: 150px;
     }
 
     .status {
@@ -314,11 +324,14 @@ h5 {
 
     /****************/
 
+    .statusSec {
+        margin-top: 230px;
+    }
+
 
     /* Status Section */
 
     .status {
-        position: relative;
         left: 50%;
         top: 50%;
         -webkit-transform: translate(-50%, -100%);
