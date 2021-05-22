@@ -18,7 +18,12 @@
         url("//db.onlinewebfonts.com/t/c16f494de2b352a69ead71431b29a155.svg#Kaleko205W00-Book") format("svg");
 }
 
+
 /* GENERAL */
+
+html {
+    scroll-behavior: smooth;
+}
 
 body {
     background-color: #25201D;
@@ -137,11 +142,13 @@ h5 {
 }
 
 .info {
+    position: relative;
+    top: 30px;
     display: grid;
     grid-template-columns: auto auto;
     justify-content: center;
     align-items: center;
-    grid-gap: 50px;
+    grid-gap: 40px;
 }
 
 .infbox {
@@ -168,7 +175,7 @@ h5 {
 }
 
 .info2 {
-    margin-top: 200px;
+    margin-top: 120px;
     position: relative;
 }
 
@@ -182,16 +189,39 @@ h5 {
 }
 
 .peopleIcon {
+    color: #faaaff;
     margin: 0 auto;
 }
 
 .zoomlogo {
-    height: 220px;
+    color: #2D8CFF;
     margin: 0 auto;
-    margin-top: 200px;
+    margin-top: 120px;
 }
 
 /******************/
+
+@media only screen and (max-width: 1210px) {
+    .info {
+        grid-template-columns: auto;
+        justify-content: center;
+        align-items: center;
+        grid-gap: 40px;
+        grid-template-areas: 'one'
+                            'two'
+                            'three'
+                            'four';
+    }
+
+    .info1 {
+        margin-top: 120px;
+        grid-area: two;
+    }
+
+    .zoomlogo {
+        grid-area: three;
+    }
+}
 
 
 @media only screen and (max-width: 960px) {
