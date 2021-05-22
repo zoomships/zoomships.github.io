@@ -236,6 +236,28 @@ h5 {
 /******************/
 
 @media only screen and (max-width: 1210px) {
+    /* Header Section */
+
+    header {
+        height: 250px;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+
+    .socialIcons {
+        margin: 0 100px;
+    }
+
+    .socialIcons > a > i {
+        padding: 20px;
+        margin: 57px 20px;
+        color: #faaaff;
+    }
+
+    /********************/
+
+
     .info {
         grid-template-columns: auto;
         justify-content: center;
