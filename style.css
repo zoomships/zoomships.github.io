@@ -140,6 +140,8 @@ h5 {
     display: grid;
     grid-template-columns: auto auto;
     justify-content: center;
+    align-items: center;
+    grid-gap: 50px;
 }
 
 .infbox {
@@ -166,6 +168,7 @@ h5 {
 }
 
 .info2 {
+    margin-top: 200px;
     position: relative;
 }
 
@@ -176,6 +179,16 @@ h5 {
     -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     width: 85%;
+}
+
+.peopleIcon {
+    margin: 0 auto;
+}
+
+.zoomlogo {
+    height: 220px;
+    margin: 0 auto;
+    margin-top: 200px;
 }
 
 /******************/
