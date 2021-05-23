@@ -122,7 +122,8 @@ h5 {
 }
 
 .status {
-    position: absolute;
+    margin-top: 40px;
+    position: relative;
     left: 50%;
     top: 50%;
     -webkit-transform: translate(-50%, -50%);
